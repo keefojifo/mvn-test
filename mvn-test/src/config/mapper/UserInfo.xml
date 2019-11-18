@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="UserInfo">
+ <select id ="selectUserList" resultType="com.mvn.test.vo.UserInfoVO">
+SELECT ui_num "uiNum",UI_NAME "uiName",UI_ID "uiId",UI_PWD "uiPwd",credat,cretim,moddat,modtim,active from USER_INFO2 
+ </select>
+</mapper>
