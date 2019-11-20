@@ -8,7 +8,7 @@ public class UserInfoVO {
 	private Integer uiNum;
 	private String uiName;
 	private String uiId;
-	private String uipwd;
+	private String uiPwd;
 	private String credat;
 	private String cretim;
 	private String moddat;

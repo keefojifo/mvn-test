@@ -17,7 +17,10 @@ public class InitServlet extends HttpServlet {
 	private static SqlSessionFactory ssf;
 	static {
 		String path = "/config/mybatis-config.xml";
+		//경로 입력 
 		InputStream is = UserInfoDAOImpl.class.getResourceAsStream(path);
+		
+		
 		SqlSessionFactoryBuilder ssfb =new SqlSessionFactoryBuilder();
 		ssf = ssfb.build(is);
 	}

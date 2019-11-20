@@ -20,7 +20,7 @@ public class TargetServlet extends HttpServlet {
    
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("3. get방식이 일어날때마다 날 호출하겠지");
+		System.out.println("get방식이 일어날때마다 날 호출하겠지");
 		
 		String[] as = request.getParameterValues("a");
 	

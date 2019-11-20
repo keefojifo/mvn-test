@@ -33,12 +33,13 @@
 			xhr.onreadystatechange = function() {
 				if (xhr.readyState == 4) {
 					if (xhr.status == 200) {
+						console.log(xhr.responseText);
 						var list = JSON.parse(xhr.responseText);
 						var tBody = document.getElementById('tBody');
 						var html = '';
 						for (var i = 0; i < list.length; i++) {
 							html += '<tr>';
-							html += '<td>' + list[i].uiNum + '</td>';
+							html += '<td><a href="/views/user/userview?biNum=' + list[i].uiNum + '">' + list[i].uiNum + '</a></td>';
 							html += '<td>' + list[i].uiName + '</td>';
 							html += '<td>' + list[i].uiId + '</td>';
 							html += '<td>' + list[i].uiPwd + '</td>';

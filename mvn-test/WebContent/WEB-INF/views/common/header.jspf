@@ -4,9 +4,9 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 
-<!--  부트스트렙 연결 하는 거   var 하고 value 를 띄어야 된다. -->
+
 <c:set var="cssPath" value="${pageContext.request.contextPath}/bootstrap/css"/>
-<!--  pageContext 는scope 객체   -->
+
 <c:set var="jsPath" value="${pageContext.request.contextPath}/bootstrap/js"/>
 
 

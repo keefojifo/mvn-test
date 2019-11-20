@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="/views/user/list">list로 넘어가기</a>
+<a href="/views/user/userList">list로 넘어가기</a>
+<a href="/views/user/userInsert">insert로 넘어가기</a>
 ${jsPath}
 ${cssPath}
 
