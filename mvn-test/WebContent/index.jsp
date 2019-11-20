@@ -9,6 +9,7 @@
 <body>
 <a href="/views/user/userList">list로 넘어가기</a>
 <a href="/views/user/userInsert">insert로 넘어가기</a>
+<a href="/views/filetest/filetestlist">filetestlist로 넘어가기</a>
 ${jsPath}
 ${cssPath}
 
